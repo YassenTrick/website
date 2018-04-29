@@ -1,0 +1,39 @@
+{
+  "name": "minecraft-tools",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.php",
+  "devDependencies": {
+    "prettier": "^1.11.1",
+    "@prettier/plugin-php": "^0.1.0"
+  },
+  "scripts": {
+    "prettier": "prettier \"**/*.php\" --write",
+    "install": "composer install",
+    "start": "composer start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minecraft-tools/backend.git"
+  },
+  "keywords": [
+    "minecraft",
+    "pocketmine",
+    "pmmp",
+    "php",
+    "converter"
+  ],
+  "author": {
+    "name": "Nathaniel Fredericks",
+    "email": "me@nathfreder.website",
+    "website": "https://nathfreder.website"
+  },
+  "contributors": [
+    {
+      "name": "Ad5001",
+      "email": "mail@ad5001.eu",
+      "website": "https://en.ad5001.eu"
+    }
+  ],
+  "license": "MPL-2.0"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "minecraft-tools",
+  "description": "",
+  "homepage": "http://github.com/minecraft-tools",
+  "license": "MPL-2.0",
+  "authors": [
+    {
+      "name": "Nathaniel Fredericks",
+      "email": "me@nathfreder.website",
+      "homepage": "https://nathfreder.website"
+    },
+    {
+      "name": "Ad5001",
+      "email": "mail@ad5001.eu",
+      "homepage": "https://ad5001.eu"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "slim/slim": "^3.1",
+    "symfony/yaml": "^3.4",
+    "aws/aws-sdk-php": "^3.52",
+    "symfony/filesystem": "^3.4"
+  },
+  "scripts": {
+    "start": "php -dpost_max_size=0 -dphar.readonly=0 -S localhost:8080 index.php"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
