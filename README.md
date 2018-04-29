@@ -1,8 +1,10 @@
 # PocketMine Tools ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pmt-mcpe-fun/website/master.svg)
 > The only collection of endpoints for @pmmp plugins.
 ## Requirements
-* Node 8.x.x _(development only)_
+* Node 8.x.x
+* Node Package Manager 5.x.x
 * PHP 7.0.x
+* Composer
 
 ## Installation
 1. Clone
